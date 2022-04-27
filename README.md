@@ -1,3 +1,4 @@
+# 原作者已经润了，克隆他的3.0.0版本，修复N年不改的默认选中加粗不生效问题
 # FlycoTabLayout
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-FlycoTabLayout-green.svg?style=true)](https://android-arsenal.com/details/1/2756)
 #### [中文版](https://github.com/H07000223/FlycoTabLayout/blob/master/README_CN.md)
