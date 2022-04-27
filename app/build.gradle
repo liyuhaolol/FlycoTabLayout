@@ -2,7 +2,6 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
-    buildToolsVersion rootProject.ext.buildToolsVersion
 
     defaultConfig {
         applicationId "com.flyco.tablayoutsamples"
@@ -22,8 +21,7 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation support.appcompat
-    implementation support.v4
     implementation support.design
-//    implementation project(':FlycoTabLayout_Lib')
-    implementation 'io.github.h07000223:flycoTabLayout:3.0.0'
+    implementation project(':FlycoTabLayout_Lib')
+    //implementation 'io.github.h07000223:flycoTabLayout:3.0.0'
 }
