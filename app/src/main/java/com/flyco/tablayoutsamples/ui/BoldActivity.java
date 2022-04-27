@@ -78,6 +78,5 @@ public class BoldActivity extends AppCompatActivity {
         vp.setOffscreenPageLimit(titles.size());
 
         vp.setCurrentItem(0);
-        //tab.setCurrentTab(1);
     }
 }
