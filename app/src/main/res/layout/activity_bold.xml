@@ -21,7 +21,9 @@
         app:tl_textBold="SELECT"
         app:tl_indicator_height="2dp"
         app:tl_textsize="16sp"
-        app:tl_tab_padding="15dp"
+        app:tl_tab_padding="8dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
         android:paddingBottom="9dp"
         android:layout_alignParentBottom="true"
         />
