@@ -1,4 +1,5 @@
 apply plugin: 'com.android.library'
+apply plugin: 'maven-publish'
 
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
@@ -27,4 +28,17 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation support.appcompat
     implementation support.design
+}
+
+afterEvaluate {
+    publishing {
+        publications{
+            release(MavenPublication) {
+                from components.release
+                groupId = 'com.github.liyuhaolol'
+                artifactId = 'flycoTabLayout'
+                version = '2.1.5'
+            }
+        }
+    }
 }
