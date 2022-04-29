@@ -37,7 +37,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'com.github.liyuhaolol'
                 artifactId = 'flycoTabLayout'
-                version = '2.1.5'
+                version = '3.0.0'
             }
         }
     }
